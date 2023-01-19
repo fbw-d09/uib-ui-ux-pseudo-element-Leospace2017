@@ -1,0 +1,107 @@
+.aufgabe1 li::after
+{
+    content: " ";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aufgabe1 li::before
+{
+    content: " ";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li[class = pdf]::after
+{
+    content: " ";
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-image:url(https://img.icons8.com/officel/64/000000/pdf.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+li[class = xls]::after
+{
+    content: " ";
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-image:url(https://img.icons8.com/dusk/64/000000/ms-excel.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+
+li[class = doc]::after
+{
+    content: " ";
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-image:url(https://img.icons8.com/dusk/64/000000/ms-word.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: -20px;
+}
+
+.aufgabe2 li
+{
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+
+.aufgabe3 p:first-child::before
+{
+    content: " ";
+    display: block;
+    height: 1rem;
+    width: 100%;
+    background: linear-gradient(to right,aqua, yellow);
+}
+.aufgabe3 p:last-child::after
+{
+    content: " ";
+    display: block;
+    height: 1rem;
+    width: 100%;
+    background: linear-gradient(to left,aqua, yellow);
+}
+
+.aufgabe3p p::before
+{
+    content: " ";
+    display: block;
+    height: 1rem;
+    width: 100%;
+    background: linear-gradient(to right,aqua, yellow);
+}
+
+.aufgabe3p p::after
+{
+    content: " ";
+    display: block;
+    height: 1rem;
+    width: 100%;
+    background: linear-gradient(to left,aqua, yellow);
+}
+
